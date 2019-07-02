@@ -1,0 +1,165 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 100%;
+}
+
+header
+{
+    height: 30px;
+    width: 1440px;
+    min-width: 980px;
+    position: fixed;
+    top: 16px;
+    bottom: 775px;
+    display: block;
+}
+
+#menu
+{
+    height: 30px;
+    width: 181.594px;
+    padding:30px 30px;
+    min-width: 181px;
+    position: relative;
+    float: right;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.item
+{
+    height: 24px;
+    width: 33.84px;
+    display: inline-block;
+    padding:00px 10px;
+    margin: -50px 60px 00px -50px;
+    vertical-align: middle;
+}
+
+#menuImage
+{
+    padding: 10px 0px 0px 0px
+}
+
+#userImage
+{
+    padding: 6px 0px 0px 0px
+}
+
+.bandeMiPage
+{
+    text-align: center;
+    margin: 14% 0px 0px 0px;
+    
+}
+
+#principal
+{
+    text-align: center;
+    margin: 14% 0px 0px 0px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#searchBar1
+{
+    height: 42px;
+    width: 540px;
+    margin: 10px 0px 0px 0px;   
+    border-radius: 25px;
+    border: 1px #E1E0E0 solid;  
+}
+
+
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2% 0px 0px -30px;
+}
+
+#buttonSearch, #buttonLucky
+{
+    height: 40px;
+    width: 150px;
+    background: #E1E0E0;
+    border: 0px solid;
+    margin: 2% 0px 0px 30px;
+    color: #0f0f0f;
+    font-size: 100%;
+    border-radius: 05px;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+  }
+   
+  footer ul {
+    float: none;
+    padding-bottom: 2px;
+     
+  }
+
+  .footer-left {
+    text-align: center;
+    margin: auto; 
+    padding-top: 10px;
+     
+  }
+   
+  .footer-right {
+    float: none;
+    text-align: center;   
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    width: 100%;
+    border: -5% 0% -5% 0%;
+    background-color:#f2f2f2;
+    border-top:solid 0.5px rgba(0,0,0,0.4);
+ 
+  }
+
+#bottom1{
+    margin-top: 0;
+    margin-left: 2%;
+    display: flex;
+    flex-flow: wrap row ;
+    justify-content: flex-start;
+  }
+  
+ #bottom2
+ {
+    display: grid;
+    grid-template-columns: 125px 100px 100px 350px 1fr 200px 100px 100px 125px;
+    border-top:solid 0.5px rgba(0,0,0,0.4);
+}
+
+a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration:none;
+  }
+  
+  a:hover, a:active {
+    text-decoration:underline;
+  }
+
+ 
